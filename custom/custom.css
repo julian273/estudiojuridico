@@ -4,7 +4,15 @@
    font-family: 'Anek Malayalam', sans-serif;
 } 
 
+.grilla{
+    display: grid;
+
+}
+
+
+/* Paginiga index */
 .encabezado {
+    grid-area: encabezado;
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -13,6 +21,7 @@
     height: 100px;
     position: sticky;
     background-color: #8080805b;
+    border: solid red;
 }
 
 .encabezado__titulo {
@@ -42,10 +51,21 @@
     border: solid #808080;
     border-radius: 15px;
 }
+/* Fin encabezado */
+/* inicio contenido pagina principal */
 
-.carruzel {
-    text-align: center;
-    background-image: url(/CoderHouse/Proyecto1/imagen/fondotodo.jpg);
+main {
+    display: flex;
+}
+
+.section__nosotros {
+    grid-area: nosotros;
+    border: solid red;
+}
+
+.section__servicios {
+    grid-area: servicios;
+    border: solid red;
 }
 
 .nosotros {
@@ -205,6 +225,7 @@
 
 
 .pie {
+    grid-area: pie;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
