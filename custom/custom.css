@@ -209,71 +209,11 @@
 }
 /* Fin de pagina quienes somos*/ 
 
-/* .grilla3{
-    display: grid;
-    grid-template-areas: 
-    "encabezado encabezado encabezado"
-    "laboral familiar accidentes"
-    "financiero daños defensa"
-    "pie pie pie";
-    grid-template-rows: 100px 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 15px;
-    column-gap: 15px;
-    height: 100vh;
+.grilla3{   
     background-image: url(../imagen/fondotodo.jpg);
-    border: solid red;
-} */
+}
 
 /* Pagina de servicios */
-
-/* .laboral{
-    grid-area: laboral;
-}
-
-.familiar {
-    grid-area: familiar;
-}
-
-.accidentes {
-    grid-area: accidentes;
-}
-
-.financiero {
-    grid-area: financiero;
-}
-
-.daños {
-    grid-area: daños;
-}
-
-.defensa {
-    grid-area: defensa;
-} */
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    height: 100vh;
-}
-    
-.div1 {
-    grid-area: 1 / 1 / 2 / 4;
-    display: inline;
-    justify-content: space-between;
-    background-color: #8080805b;
-}
-
-.div2 { grid-area: 2 / 1 / 3 / 2; }
-.div3 { grid-area: 2 / 2 / 3 / 3; }
-.div4 { grid-area: 2 / 3 / 3 / 4; }
-.div5 { grid-area: 3 / 1 / 4 / 2; }
-.div6 { grid-area: 3 / 2 / 4 / 3; }
-.div7 { grid-area: 3 / 3 / 4 / 4; }
-.div8 { grid-area: 4 / 1 / 5 / 4; }
 
 .contenedor__servicios__identificacion {
     display: flex;
@@ -294,8 +234,8 @@
 }
 
 .contenedor__servicios__identificacion__img {
-    /* width: 150px; */
-    /* height: 200px; */
+    width: 150px;
+    height: 200px;
     border: #ffffff;
     border-radius: 3px;
 }
