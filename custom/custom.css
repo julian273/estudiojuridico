@@ -4,11 +4,9 @@
    font-family: 'Anek Malayalam', sans-serif;
 } 
 
-.grilla{
-    display: grid;
-
+.back{
+    background-image: url(../imagen/fondotodo.jpg);
 }
-
 
 /* Paginiga index */
 .encabezado {
@@ -20,8 +18,7 @@
     align-content: flex-end;
     height: 100px;
     position: sticky;
-    background-color: #8080805b;
-    border: solid red;
+    background-color: #80808056;
 }
 
 .encabezado__titulo {
@@ -47,11 +44,11 @@
     display: flex;
     list-style: none;
     cursor: pointer;
-    background-color: #D5D5DC;
-    border: solid #808080;
     border-radius: 15px;
 }
+
 /* Fin encabezado */
+
 /* inicio contenido pagina principal */
 
 main {
@@ -59,13 +56,11 @@ main {
 }
 
 .section__nosotros {
-    grid-area: nosotros;
-    border: solid red;
+    font-style: italic;
 }
 
 .section__servicios {
-    grid-area: servicios;
-    border: solid red;
+    font-style: italic;
 }
 
 .nosotros {
@@ -75,7 +70,6 @@ main {
     justify-content: space-evenly;
     align-content: center;
     font-style: italic;
-    background-image: url(/CoderHouse/Proyecto1/imagen/fondotodo.jpg);
 }
 
 .nosotros__somos {
@@ -94,7 +88,6 @@ main {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    background-image: url(/CoderHouse/Proyecto1/imagen/fondotodo.jpg);
 }
 
 .contenedor__servicios {
@@ -139,7 +132,6 @@ main {
     flex-flow: row;
     justify-content: space-between;
     font-style: italic;
-    background-image: url(/CoderHouse/Proyecto1/imagen/fondotodo.jpg);
 }
 
 .presentacion__nosotros {
@@ -180,7 +172,6 @@ main {
     flex-flow: row;
     justify-content: space-around;
     align-content: space-around;
-    background-image: url(/CoderHouse/Proyecto1/imagen/fondotodo.jpg);
     font-style: italic;
 }
 
