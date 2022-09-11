@@ -1,0 +1,231 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Anek Malayalam', sans-serif;
+} 
+
+.encabezado {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-end;
+    height: 100px;
+    position: sticky;
+    background-color: #8080805b;
+}
+
+.encabezado__titulo {
+    margin-left: 15px;
+    color: #ffffff;
+}
+
+.encabezado__lista {
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+}
+
+.encabezado__lista__link {
+    text-align: center;
+    width: 80px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.encabezado__barraDeNavegacion li {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    background-color: #D5D5DC;
+    border: solid #808080;
+    border-radius: 15px;
+}
+
+.carruzel {
+    text-align: center;
+    background-image: url(/CoderHouse/Proyecto1/imagen/fondotodo.jpg);
+}
+
+.nosotros {
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-content: center;
+    font-style: italic;
+    background-image: url(/CoderHouse/Proyecto1/imagen/fondotodo.jpg);
+}
+
+.nosotros__somos {
+    color: #000000;
+    font-size: 50px;
+    margin-left: 80px;    
+}
+
+.nosotros__descripcion {
+    font-weight: bold;
+    margin: 10px 20px 100px 40px;
+    color: #000000
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    background-image: url(/CoderHouse/Proyecto1/imagen/fondotodo.jpg);
+}
+
+.contenedor__servicios {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    font-style: italic;
+    height: 1100px;
+}
+
+.contenedor__servicio__uno {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor__servicio__dos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor__servicios__identificacion {
+    margin: 50px;
+    width: 250px;
+    height: 450px;
+    background-color: #ffffff98;
+    border: solid #D5D5DC;
+    border-radius: 20px;
+}
+
+.contenedor__servicios__identificacion__img {
+    margin-top: 10px;
+    width: 150px;
+    height: 200px;
+    border:#ffffff;
+    border-radius: 15px;
+}
+
+.presentacion {
+    background-color: #808080;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    font-style: italic;
+    background-image: url(/CoderHouse/Proyecto1/imagen/fondotodo.jpg);
+}
+
+.presentacion__nosotros {
+    display: flex;
+    justify-content: space-evenly;
+    width: 555555px;
+}
+
+.presentacion__nosotros__julian1 {
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column;
+    width: 350px;
+    height: 600px;
+    border: solid 2px #b8b8bb;
+    border-radius: 5px;
+    background-color: #ffffff63;
+    color: black;
+    
+}
+.presentacion__parrafo{    
+    text-align: center;
+    margin: 35px;
+}
+
+.presentacion__img {
+    margin: 20px;
+    display: flex;
+    border-radius: 15px;
+    height:300px;
+    width: 330px;
+}
+
+.contacto{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-content: space-around;
+    background-image: url(/CoderHouse/Proyecto1/imagen/fondotodo.jpg);
+    font-style: italic;
+}
+
+.contacto__mapa a {
+    display: flex;
+    margin: 20px;
+}
+
+.contacto__formulario {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.contacto__formulario__datos {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border: solid 2px #b8b8bb;
+    border-radius: 5px;
+    background-color: #ffffff63;
+}
+
+.contacto__redSocial{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.redSocial {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+}
+
+
+.pie {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-content: flex-end;
+    height: 350px;
+    background-color: #000000;
+    color: #ffffff; 
+}
+
+.pie__informacion {
+    margin-top: 55px;
+    display: flex;
+    text-align: center;
+}
+
+.pie__informacion__ubi {
+    width: 500px;
+    height: 200px;
+}
+
+.pie__informacion__mail {
+    width: 500px;
+    height: 200px;
+}
