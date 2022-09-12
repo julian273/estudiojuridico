@@ -210,7 +210,8 @@
 /* Fin de pagina quienes somos*/ 
 
 .grilla3{   
-    display: grid;
+    /* display: grid; */
+    
     background-image: url(../imagen/fondotodo.jpg);
 }
 
