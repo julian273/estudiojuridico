@@ -210,6 +210,7 @@
 /* Fin de pagina quienes somos*/ 
 
 .grilla3{   
+    display: grid;
     background-image: url(../imagen/fondotodo.jpg);
 }
 
@@ -221,15 +222,15 @@
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-    width: 250px;
-    height: 450px;
+    /* width: 250px; */
+    /* height: 450px; */
     background-color: #ffffff98;
     border: solid #D5D5DC;
     border-radius: 20px;
 }
 
 .contenedor__servicios__identificacion__parrafo{
-    margin: 5px;
+    /* margin: 5px; */
     font-style: italic;
 }
 
