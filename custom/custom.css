@@ -209,7 +209,16 @@
 }
 /* Fin de pagina quienes somos*/ 
 
-.grilla3{   
+.grilla3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .5fr 2fr 2fr .5fr;
+    grid-template-areas:
+    "encabezado encabezado encabezado"
+    "dos tres cuatro"
+    "cinco seis siete"
+    "pie pie pie";
+    height: 100vh;
     background-image: url(../imagen/fondotodo.jpg);
 }
 
