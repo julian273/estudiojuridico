@@ -7,11 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300;400;600&family=Kumbh+Sans:wght@400;700&family=Open+Sans:wght@400;600&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet">    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300;400;600&family=Kumbh+Sans:wght@400;700&family=Open+Sans:wght@400;600&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./custom/custom.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Estudio Juridico</title>
 </head>
+
 <body>
     <div class="grilla">
         <header class="encabezado borde">
@@ -30,8 +34,32 @@
                 </ul>
             </nav>
         </header>
-        <!-- Seccion nueva para mejorar con grid -->
-        <h2 class="titulo__main">Estudio juridico</h2>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img width="450px" height="400" src="./imagen/contratos.jpg" class="d-block w-75 img" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img width="450px" height="400" src="./imagen/instalaciones.jpg" class="d-block w-75 img" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img width="450px" height="400" src="./imagen/staff abogados.jpg" class="d-block w-75 img"
+                        alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
         <main class="principal">
             <div class="principal__servicios">
                 <h2 class="principal__servicios__titulo"><a class="link direc"
@@ -61,7 +89,8 @@
                 óptimo</p>
         </section>
         <section class="principal__contacto">
-            <button class="principal__contacto__boton"><a class="link" href="./paginas/contacto.html">Contactanos!</a></button>
+            <button class="principal__contacto__boton"><a class="link"
+                    href="./paginas/contacto.html">Contactanos!</a></button>
         </section>
         <!-- Fin de seccion nueva -->
         <footer class="pie borde">
@@ -83,7 +112,9 @@
             </div>
         </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -12,7 +12,7 @@
     "servicio nosotros nosotros"
     "contacto contacto contacto"
     "pie pie pie";
-    grid-template-rows: 100px .5fr 4fr .5fr;
+    grid-template-rows: 100px 1fr 4fr .5fr;
     grid-template-columns: 1fr 1fr 1fr;
     height: 100vh;
     background-image: url(../imagen/fondotodo.jpg);
@@ -20,7 +20,11 @@
     column-gap: 10px;
 }
 
-
+.carousel {
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+}
 /* Inicio */
 /* Estilo del encabezado */
 
@@ -62,10 +66,14 @@
 
 /* Estilo de contedido principal */
 
-.titulo__main{
+.titulo{
     grid-area: titulo;
-    margin-left: 35px;
+    border: solid red;
+    display: flex;
+    justify-content: center;
+    
 }
+
 
 .principal {
     grid-area: servicio;
@@ -212,31 +220,59 @@
 
 /* Pagina de servicios */
 
-.contenedor__servicios__identificacion {
+.grilla3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr;
+    row-gap: 15px;
+    grid-template-areas: 
+    "encabezado encabezado encabezado"
+    "laboral familiar accidentes"
+    "financiero daños defensa"
+    "pie pie pie";
+    height: 100vh;
+    background-image: url(../imagen/fondotodo.jpg);
+}
+
+.fondo{
+    background: #8080805b;
+}
+
+.laboral{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-left: 50px;
-    /* width: 250px; */
-    /* height: 450px; */
-    background-color: #ffffff98;
-    border: solid #D5D5DC;
-    border-radius: 20px;
+    grid-area: laboral;
+}
+.familiar {
+    display: flex;
+    justify-content: center;
+    grid-area: familiar;
+}
+.accidentes{
+    display: flex;
+    justify-content: center;
+    grid-area: accidentes;
+}
+.financiero{    
+    display: flex;
+    justify-content: center;
+    grid-area: financiero;
+}
+.daños {
+    display: flex;
+    justify-content: center;
+    grid-area: daños;
+}
+.defensa{
+    display: flex;
+    justify-content: center;
+    grid-area: defensa;
 }
 
-.contenedor__servicios__identificacion__parrafo{
-    /* margin: 5px; */
-    font-style: italic;
-}
-
-.contenedor__servicios__identificacion__img {
+.medida {
+    height: 350px;
     width: 150px;
-    height: 200px;
-    border: #ffffff;
-    border-radius: 3px;
 }
-
 
 
 /* pagina de staff */
