@@ -16,23 +16,51 @@
     <title>Estudio Juridico</title>
 </head>
 
-<body class="grilla">
-    <header class="encabezado borde">
-        <h1 class="encabezado__titulo">Estudio Juridico</h1>
-        <nav class="encabezado__barraDeNavegacion">
-            <ul class="encabezado__lista">
-                <li><a href="./index.html" class="encabezado__lista__link">Inicio</a></li>
-                <span class="border-end"></span>
-                <li><a href="./paginas/nosotros.html" class="encabezado__lista__link">Nosotros</a></li>
-                <span class="border-end"></span>
-                <li><a href="./paginas/servicios.html" class="encabezado__lista__link">Servicio</a></li>
-                <span class="border-end"></span>
-                <li><a href="./paginas/staff.html" class="encabezado__lista__link">Staff</a></li>
-                <span class="border-end"></span>
-                <li><a href="./paginas/contacto.html" class="encabezado__lista__link">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class="container-fluid">
+    <div class="row">
+        <div>
+            <header class="encabezado col">
+                <h1 class="encabezado__titulo col-sm-10 col-md-10 col-lg-6">Estudio Juridico</h1>
+                <nav class="navbar color navbar-expand-lg bg-light col-sm-2 col-md-2 col-lg-6">
+                    <div class=" container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                <li><a href="./index.html" aria-current="page"
+                                        class="encabezado__lista__link nav-link active">Inicio</a></li>
+                                </li>
+                                <span class="border-end"></span>
+                                <li class="nav-item">
+                                    <a href="./paginas/nosotros.html"
+                                        class="encabezado__lista__link nav-link">Nosotros</a>
+                                </li>
+                                <span class="border-end"></span>
+                                <li class="nav-item">
+                                    <a href="./paginas/servicios.html"
+                                        class="encabezado__lista__link nav-link">Servicio</a>
+                                </li>
+                                <span class="border-end"></span>
+                                <li class="nav-item">
+                                    <a href="./paginas/staff.html" class="encabezado__lista__link nav-link">Staff</a>
+                                </li>
+                                <span class="border-end"></span>
+                                <li class="nav-item">
+                                    <a href="./paginas/contacto.html"
+                                        class="encabezado__lista__link nav-link">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
 
     <section id="carouselExampleFade" class="carousel slide carousel-fade contenido" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -56,50 +84,67 @@
         </button>
     </section>
 
-    <main class="principal__servicios">
-        <div class="card">
-            <h5 class="card-header"><a href="./paginas/servicios.html" class="links"> Servicios</a></h5>
-            <div class="card-body">
-                <p class="card-text">Contamos con una amplia y vasta experienciaen acompañar a
-                    nuestros clientes en diferentes rubtos, entre los que se destacan el asesoramiento especializado
-                    para:</p>
-                <ul class="principal__servicios__lista">
-                    <li>Accidentes de transito</li>
-                    <li>Accidentes laborales</li>
-                    <li>Financieros</li>
-                    <li>Familiar</li>
-                </ul>
-            </div>
-        </div>
-    </main>
-
-    <section class="principal__nosotros">
-        <div class="card">
-            <h5 class="card-header"><a href="./paginas/nosotros.html" class="links">Nosotros</a></h5>
-            <div class="card-body">
-                <p class="card-text">Somos un Estudio jurídico conformado por un grupo de profesionales de reconocida
-                    trayectoria y experiencia. Cuyo tarea principal es brindar asesoramiento legal en diversas ramas del
-                    derecho vinculados a temas civiles, laborales, comerciales. ¿El objetivo? Es brindarle a los
-                    clientes soluciones eficaces, rápidas, tratando de otorgarles siempre los mayores beneficios.
-                    Ofrecemos un excelente abordaje judicial relacionado a la problemática actual. Nuestro equipo de
-                    trabajo se destaca por la atención personalizada y la honestidad para lograr un final óptimo</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="principal__contacto">
-        <button type="button" class="btn btn-light"> <a href="./paginas/contacto.html"
-                class="links">Contacto</a></button>
+    <section class="row">
+        <section class="col-sm-12 col-md-6 col-lg-6">
+            <main class="principal__servicios">
+                <div class="card">
+                    <h5 class="card-header"><a href="./paginas/servicios.html" class="links"> Servicios</a></h5>
+                    <div class="card-body">
+                        <p class="card-text">Contamos con una amplia y vasta experienciaen acompañar a
+                            nuestros clientes en diferentes rubtos, entre los que se destacan el asesoramiento
+                            especializado
+                            para:</p>
+                        <ul class="principal__servicios__lista">
+                            <li>Accidentes de transito</li>
+                            <li>Accidentes laborales</li>
+                            <li>Financieros</li>
+                            <li>Familiar</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </section>
+        <section class="col-sm-12 col-md-6 col-lg-6">
+            <section class="principal__nosotros">
+                <div class="card">
+                    <h5 class="card-header"><a href="./paginas/nosotros.html" class="links">Nosotros</a></h5>
+                    <div class="card-body">
+                        <p class="card-text">Somos un Estudio jurídico conformado por un grupo de profesionales de
+                            reconocida
+                            trayectoria y experiencia. Cuyo tarea principal es brindar asesoramiento legal en
+                            diversas ramas del
+                            derecho vinculados a temas civiles, laborales, comerciales. ¿El objetivo? Es brindarle a
+                            los
+                            clientes soluciones eficaces, rápidas, tratando de otorgarles siempre los mayores
+                            beneficios.
+                            Ofrecemos un excelente abordaje judicial relacionado a la problemática actual. Nuestro
+                            equipo de
+                            trabajo se destaca por la atención personalizada y la honestidad para lograr un final
+                            óptimo</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="col-sm-12 col-md-12 col-lg-12">
+            <section class="principal__contacto">
+                <button type="button" class="btn btn-light"> <a href="./paginas/contacto.html"
+                        class="links">Contacto</a></button>
+            </section>
+        </section>
     </section>
     <!-- Fin de seccion nueva -->
-    <footer class="pie borde">
-        <div class="pie__informacion">
-            <div class="pie__informacion__ubi">
-                <h2 class="pie__titulo">Estudio Juridico</h2>
-                <p>9 de julio 3119 Piso 5.</p>
-                <p>Rosario, Santa Fe (CP 2000)</p>
-                <p>Whatsapp: 03412824649</p>
-            </div>
+
+    <footer class="pie borde row">
+        <section class="col-sm-12 col-md-6 col-lg-6">
+            <div class="pie__informacion">
+                <div class="pie__informacion__ubi">
+                    <h2 class="pie__titulo">Estudio Juridico</h2>
+                    <p>9 de julio 3119 Piso 5.</p>
+                    <p>Rosario, Santa Fe (CP 2000)</p>
+                    <p>Whatsapp: 03412824649</p>
+                </div>
+        </section>
+        <section class="col-sm-12 col-md-6 col-lg-6">
             <div class="pie__informacion__mail">
                 <p>
                     Tu consulta no es molestia, sin importar que rama del derecho se encuentre involucrada, la
@@ -108,7 +153,7 @@
                     nos resulte posible evacuarla.
                 </p>
             </div>
-        </div>
+        </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

@@ -4,20 +4,8 @@
     font-family: 'Anek Malayalam', sans-serif;
 }
 
-.grilla {
-    display: grid;
-    grid-template-areas: 
-    "encabezado encabezado encabezado"
-    "carruzel carruzel carruzel"
-    "servicio nosotros nosotros"
-    "contacto contacto contacto"
-    "pie pie pie";
-    grid-template-rows: 100px 1fr 4fr .5fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 100vh;
-    background-image: url(../imagen/fondotodo.jpg);
-    row-gap: 10px;
-    column-gap: 10px;
+.color {
+    background-color: #808080;
 }
 
 .contenido{
@@ -334,7 +322,6 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    height: 200px;
     width: 500px;
 }
 
