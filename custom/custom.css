@@ -8,7 +8,7 @@
     display: grid;
     grid-template-areas: 
     "encabezado encabezado encabezado"
-    "titulo titulo titulo"
+    "carruzel carruzel carruzel"
     "servicio nosotros nosotros"
     "contacto contacto contacto"
     "pie pie pie";
@@ -16,12 +16,23 @@
     grid-template-columns: 1fr 1fr 1fr;
     height: 100vh;
     background-image: url(../imagen/fondotodo.jpg);
-    row-gap: 2px;
+    row-gap: px;
     column-gap: 10px;
 }
 
-.carousel {
-    grid-area: titulo;
+.contenido{
+    display: flex;
+    grid-area: carruzel;
+    /* border: solid red; */    
+}
+
+.d-block {
+    height: 450px;
+    display: flex;
+    /* border: solid blue; */
+}
+.carousel-item{
+    border: solid red;
     display: flex;
     justify-content: center;
 }
