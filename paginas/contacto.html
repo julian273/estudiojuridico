@@ -7,87 +7,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300;400;600&family=Kumbh+Sans:wght@400;700&family=Open+Sans:wght@400;600&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300;400;600&family=Kumbh+Sans:wght@400;700&family=Open+Sans:wght@400;600&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../custom/custom.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Estudio Juridico</title>
 </head>
 
-<body>
-    <!-- <div class="grilla"> -->
-        <header class="encabezado">
-            <h1 class="encabezado__titulo">Estudio Juridico</h1>
-            <nav class="encabezado__barraDeNavegacion">
-                <ul class="encabezado__lista">
-                    <li><a href="../index.html" class="encabezado__lista__link">Inicio</a></li><!-- Pagina de inicio es el index-->
-                    <span class="border-end"></span>
-                    <li><a href="../paginas/nosotros.html" class="encabezado__lista__link">Nosotros</a></li>
-                    <span class="border-end"></span>
-                    <li><a href="../paginas/servicios.html" class="encabezado__lista__link">Servicio</a></li>
-                    <span class="border-end"></span>
-                    <li><a href="../paginas/staff.html" class="encabezado__lista__link">Staff</a></li>
-                    <span class="border-end"></span>
-                    <li><a href="../paginas/contacto.html" class="encabezado__lista__link">Contacto</a></li>
-                </ul> 
-            </nav>
-        </header>
-        <article>
-            <div class="contacto">
-                <div class="contacto__mapa">
+<body class="grilla__contacto">
+
+    <header class="encabezado">
+        <h1 class="encabezado__titulo">Estudio Juridico</h1>
+        <nav class="encabezado__barraDeNavegacion">
+            <ul class="encabezado__lista">
+                <li><a href="../index.html" class="encabezado__lista__link">Inicio</a></li>
+                <!-- Pagina de inicio es el index-->
+                <span class="border-end"></span>
+                <li><a href="../paginas/nosotros.html" class="encabezado__lista__link">Nosotros</a></li>
+                <span class="border-end"></span>
+                <li><a href="../paginas/servicios.html" class="encabezado__lista__link">Servicio</a></li>
+                <span class="border-end"></span>
+                <li><a href="../paginas/staff.html" class="encabezado__lista__link">Staff</a></li>
+                <span class="border-end"></span>
+                <li><a href="../paginas/contacto.html" class="encabezado__lista__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <div class="contacto">
+            <div class="contacto__mapa">
+                <a href="#">
+                    <img src="../imagen/maps1.jpg" alt="mapa de ubicacion" class="contacto__mapa__ubi">
+                    <!-- link a la ubicacion-->
+                </a>
+            </div>
+
+            <section class="contacto__formulario">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </section>
+
+
+
+            <div class="contacto__redSocial">
+                <div class="contacto__redSocial__contenedor">
                     <a href="#">
-                        <img src="../imagen/maps1.jpg" alt="mapa de ubicacion" class="contacto__mapa__ubi">
-                        <!-- link a la ubicacion-->
+                        <img src="../imagen/instagram.png" alt="Instagram" class="redSocial">
                     </a>
-                </div>
-                <div class="contacto__formulario">
-                    <form action="" class="contacto__formulario__datos">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" placeholder="Ingresa tu nombre" id="nombre">
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="Ingresa tu email">
-                        <label for="consulta">Consulta</label>
-                        <input type="text" placeholder="Escribi tu consulta">
-                        <button>Enviar</button>
-                    </form>
-                </div>
-                <div class="contacto__redSocial">
-                    <div class="contacto__redSocial__contenedor">
-                        <a href="#">
-                            <img src="../imagen/instagram.png" alt="Instagram" class="redSocial">
-                        </a>
-                        <a href="#">
-                            <img src="../imagen/fascebok.png" alt="facebook" class="redSocial">
-                        </a>
-                        <a href="#">
-                            <img src="../imagen/linkedin.png" alt="linkedin" class="redSocial">
-                        </a>
-                        <a href="#">
-                            <img src="../imagen/WhatsApp.webp" alt="whatsapp" class="redSocial">
-                        </a>
-                    </div> <!-- todos las imagenes van a ser links que redireccionan a las redes sociales-->
-                </div>
+                    <a href="#">
+                        <img src="../imagen/fascebok.png" alt="facebook" class="redSocial">
+                    </a>
+                    <a href="#">
+                        <img src="../imagen/linkedin.png" alt="linkedin" class="redSocial">
+                    </a>
+                    <a href="#">
+                        <img src="../imagen/WhatsApp.webp" alt="whatsapp" class="redSocial">
+                    </a>
+                </div> <!-- todos las imagenes van a ser links que redireccionan a las redes sociales-->
             </div>
-        </article>
-        <footer class="pie">
-            <div class="pie__informacion">
-                <div class="pie__informacion__ubi">
-                    <h2 class="pie__titulo">Estudio Juridico</h2>
-                    <p>9 de julio 3119 Piso 5.</p>
-                    <p>Rosario, Santa Fe (CP 2000)</p>
-                    <p>Whatsapp: 03412824649</p>
-                </div>
-                <div class="pie__informacion__mail">
-                    <p>
-                        Tu consulta no es molestia, sin importar que rama del derecho se encuentre involucrada, la
-                        responderemos desde nuestro correo contacto@estudiojuridico.com de manera gratuita lo más pronto
-                        que
-                        nos resulte posible evacuarla.
-                    </p>
-                </div>
+        </div>
+    </article>
+    <footer class="pie">
+        <div class="pie__informacion">
+            <div class="pie__informacion__ubi">
+                <h2 class="pie__titulo">Estudio Juridico</h2>
+                <p>9 de julio 3119 Piso 5.</p>
+                <p>Rosario, Santa Fe (CP 2000)</p>
+                <p>Whatsapp: 03412824649</p>
             </div>
-        </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+            <div class="pie__informacion__mail">
+                <p>
+                    Tu consulta no es molestia, sin importar que rama del derecho se encuentre involucrada, la
+                    responderemos desde nuestro correo contacto@estudiojuridico.com de manera gratuita lo más pronto
+                    que
+                    nos resulte posible evacuarla.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -16,26 +16,39 @@
     grid-template-columns: 1fr 1fr 1fr;
     height: 100vh;
     background-image: url(../imagen/fondotodo.jpg);
+<<<<<<< HEAD
     row-gap: px;
+=======
+    row-gap: 10px;
+>>>>>>> version2.0
     column-gap: 10px;
 }
 
 .contenido{
     display: flex;
     grid-area: carruzel;
+<<<<<<< HEAD
     /* border: solid red; */    
+=======
+>>>>>>> version2.0
 }
 
 .d-block {
     height: 450px;
     display: flex;
+<<<<<<< HEAD
     /* border: solid blue; */
 }
 .carousel-item{
     border: solid red;
+=======
+}
+.carousel-item{
+>>>>>>> version2.0
     display: flex;
     justify-content: center;
 }
+
 /* Inicio */
 /* Estilo del encabezado */
 
@@ -77,68 +90,16 @@
 
 /* Estilo de contedido principal */
 
-.titulo{
-    grid-area: titulo;
-    border: solid red;
-    display: flex;
-    justify-content: center;
-    
-}
 
-
-.principal {
+.principal__servicios {
     grid-area: servicio;
     display: flex;
-    color: #000000;
-    background-color: #ffffff73;
-    margin: 15px;
-    border-radius: 5px;
+    margin-left: 5px;
 }
-
-.principal__servicios__parrafo{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    color: #000000;
-    font-style: italic;
-}
-
-.principal__servicios__lista{
-    display: inline-block;
-    justify-content: center;
-    align-content: center;
-    margin-left: 35px;
-}
-
-
-.principal__servicios__titulo{
-    color: #000000;
-    
-}
-
 
 .principal__nosotros {
-    grid-area: nosotros;
-    justify-content: center;
-    align-content: center;
-    background-color: #ffffff73;
-    margin: 15px;
-}
-
-.principal__nosotros__parrafo{
-    margin: 15px;
-    font-style: italic;
-}
-
-.link{
-    text-decoration: none;
-    color: #000000;
     display: flex;
-    justify-content: center;
-}
-
-.direc{
-    background-color: #ffffff98;
+    grid-area: nosotros;
 }
 
 .principal__contacto {
@@ -149,16 +110,10 @@
     justify-content: center;
 }
 
-.principal__contacto__boton{
-    border: solid #80808000;
-    background-color: #80808000;
+.links {
     text-decoration: none;
-    color: red;
-    font-style: italic;
-    font-size: 30px;
+    color: #000000;
 }
-
-
 
 /* Fin de inicio */
 
@@ -288,7 +243,36 @@
 
 /* pagina de staff */
 
+.grilla__staff{
+    display: grid;
+    grid-template-areas: 
+    "encabezado encabezado encabezado"
+    "abogado1 abogado2 abogado3"
+    "pie pie pie";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 4fr 1fr;
+    height: 100vh;
+    row-gap: 5px;
+    background-image: url(../imagen/fondotodo.jpg);
+}
 
+.uno{
+    display: flex;
+    justify-content: center;
+    grid-area: abogado1;
+}
+
+.dos{
+    grid-area: abogado2;
+    display: flex;
+    justify-content: center;
+}
+
+.tres{
+    grid-area: abogado3;
+    display: flex;
+    justify-content: center;
+}
 
 .presentacion {
     grid-area: carruzel;
@@ -331,43 +315,47 @@
 }
 /* pagina de contacto */
 
+.grilla__contacto{
+    display: grid;
+    grid-template-areas: 
+    "encabezado encabezado encabezado"
+    "mapa formulario redes"
+    "pie pie pie";
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 4fr 1fr;
+    height: 100vh;
+    background-image: url(../imagen/fondotodo.jpg);
+    row-gap: 5px;
+}
+
 .contacto {
     grid-area: carruzel;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     align-content: space-around;
-    background-image: url(../imagen/fondotodo.jpg);
     font-style: italic;
 }
 
 .contacto__mapa a {
+    grid-area: mapa;
     display: flex;
-    margin: 20px;
 }
 
 .contacto__formulario {
+    grid-area: formulario;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-content: center;
     align-items: center;
+    height: 200px;
+    width: 500px;
 }
 
-.contacto__formulario__datos {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 400px;
-    height: 300px;
-    border: solid 2px #b8b8bb;
-    border-radius: 5px;
-    background-color: #ffffff63;
-}
 
 .contacto__redSocial {
+    grid-area: redes;
     display: flex;
     flex-flow: column;
     justify-content: center;
