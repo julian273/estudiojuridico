@@ -16,55 +16,51 @@
     <title>Estudio Juridico</title>
 </head>
 
-<body>
-    <div class="grilla">
-        <header class="encabezado borde">
-            <h1 class="encabezado__titulo">Estudio Juridico</h1>
-            <nav class="encabezado__barraDeNavegacion">
-                <ul class="encabezado__lista">
-                    <li><a href="./index.html" class="encabezado__lista__link">Inicio</a></li>
-                    <span class="border-end"></span>
-                    <li><a href="./paginas/nosotros.html" class="encabezado__lista__link">Nosotros</a></li>
-                    <span class="border-end"></span>
-                    <li><a href="./paginas/servicios.html" class="encabezado__lista__link">Servicio</a></li>
-                    <span class="border-end"></span>
-                    <li><a href="./paginas/staff.html" class="encabezado__lista__link">Staff</a></li>
-                    <span class="border-end"></span>
-                    <li><a href="./paginas/contacto.html" class="encabezado__lista__link">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+<body class="grilla">
+    <header class="encabezado borde">
+        <h1 class="encabezado__titulo">Estudio Juridico</h1>
+        <nav class="encabezado__barraDeNavegacion">
+            <ul class="encabezado__lista">
+                <li><a href="./index.html" class="encabezado__lista__link">Inicio</a></li>
+                <span class="border-end"></span>
+                <li><a href="./paginas/nosotros.html" class="encabezado__lista__link">Nosotros</a></li>
+                <span class="border-end"></span>
+                <li><a href="./paginas/servicios.html" class="encabezado__lista__link">Servicio</a></li>
+                <span class="border-end"></span>
+                <li><a href="./paginas/staff.html" class="encabezado__lista__link">Staff</a></li>
+                <span class="border-end"></span>
+                <li><a href="./paginas/contacto.html" class="encabezado__lista__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img width="450px" height="400" src="./imagen/contratos.jpg" class="d-block w-75 img" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img width="450px" height="400" src="./imagen/instalaciones.jpg" class="d-block w-75 img" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img width="450px" height="400" src="./imagen/staff abogados.jpg" class="d-block w-75 img"
-                        alt="...">
-                </div>
+    <section id="carouselExampleFade" class="carousel slide carousel-fade contenido" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagen/contratos.jpg" class="d-block w-75 img centrado" alt="contratos">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+                <img src="./imagen/instalaciones.jpg" class="d-block w-75 img centrado" alt="instalaciones">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagen/staff abogados.jpg" class="d-block w-75 img centrado" alt="staff">
+            </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
 
-        <main class="principal">
-            <div class="principal__servicios">
-                <h2 class="principal__servicios__titulo"><a class="link direc"
-                        href="./paginas/servicios.html">Servicios</a></h2>
-                <p class="principal__servicios__parrafo">Contamos con una amplia y vasta experienciaen acompañar a
+    <main class="principal__servicios">
+        <div class="card">
+            <h5 class="card-header"><a href="./paginas/servicios.html" class="links"> Servicios</a></h5>
+            <div class="card-body">
+                <p class="card-text">Contamos con una amplia y vasta experienciaen acompañar a
                     nuestros clientes en diferentes rubtos, entre los que se destacan el asesoramiento especializado
                     para:</p>
                 <ul class="principal__servicios__lista">
@@ -74,44 +70,46 @@
                     <li>Familiar</li>
                 </ul>
             </div>
-        </main>
-        <section class="principal__nosotros">
-            <h2 class="principal__nosotros__titulo"><a class="link direc" href="./paginas/nosotros.html">Nosotros</a>
-            </h2>
-            <p class="principal__nosotros__parrafo">Somos un Estudio jurídico conformado por un grupo de profesionales
-                de reconocida trayectoria y experiencia.
-                Cuyo tarea principal es brindar asesoramiento legal en diversas ramas del derecho vinculados a temas
-                civiles, laborales, comerciales.
-                ¿El objetivo? Es brindarle a los clientes soluciones eficaces, rápidas, tratando de otorgarles siempre
-                los mayores beneficios.
-                Ofrecemos un excelente abordaje judicial relacionado a la problemática actual.
-                Nuestro equipo de trabajo se destaca por la atención personalizada y la honestidad para lograr un final
-                óptimo</p>
-        </section>
-        <section class="principal__contacto">
-            <button class="principal__contacto__boton"><a class="link"
-                    href="./paginas/contacto.html">Contactanos!</a></button>
-        </section>
-        <!-- Fin de seccion nueva -->
-        <footer class="pie borde">
-            <div class="pie__informacion">
-                <div class="pie__informacion__ubi">
-                    <h2 class="pie__titulo">Estudio Juridico</h2>
-                    <p>9 de julio 3119 Piso 5.</p>
-                    <p>Rosario, Santa Fe (CP 2000)</p>
-                    <p>Whatsapp: 03412824649</p>
-                </div>
-                <div class="pie__informacion__mail">
-                    <p>
-                        Tu consulta no es molestia, sin importar que rama del derecho se encuentre involucrada, la
-                        responderemos desde nuestro correo contacto@estudiojuridico.com de manera gratuita lo más pronto
-                        que
-                        nos resulte posible evacuarla.
-                    </p>
-                </div>
+        </div>
+    </main>
+
+    <section class="principal__nosotros">
+        <div class="card">
+            <h5 class="card-header"><a href="./paginas/nosotros.html" class="links">Nosotros</a></h5>
+            <div class="card-body">
+                <p class="card-text">Somos un Estudio jurídico conformado por un grupo de profesionales de reconocida
+                    trayectoria y experiencia. Cuyo tarea principal es brindar asesoramiento legal en diversas ramas del
+                    derecho vinculados a temas civiles, laborales, comerciales. ¿El objetivo? Es brindarle a los
+                    clientes soluciones eficaces, rápidas, tratando de otorgarles siempre los mayores beneficios.
+                    Ofrecemos un excelente abordaje judicial relacionado a la problemática actual. Nuestro equipo de
+                    trabajo se destaca por la atención personalizada y la honestidad para lograr un final óptimo</p>
             </div>
-        </footer>
-    </div>
+        </div>
+    </section>
+
+    <section class="principal__contacto">
+        <button type="button" class="btn btn-light"> <a href="./paginas/contacto.html"
+                class="links">Contacto</a></button>
+    </section>
+    <!-- Fin de seccion nueva -->
+    <footer class="pie borde">
+        <div class="pie__informacion">
+            <div class="pie__informacion__ubi">
+                <h2 class="pie__titulo">Estudio Juridico</h2>
+                <p>9 de julio 3119 Piso 5.</p>
+                <p>Rosario, Santa Fe (CP 2000)</p>
+                <p>Whatsapp: 03412824649</p>
+            </div>
+            <div class="pie__informacion__mail">
+                <p>
+                    Tu consulta no es molestia, sin importar que rama del derecho se encuentre involucrada, la
+                    responderemos desde nuestro correo contacto@estudiojuridico.com de manera gratuita lo más pronto
+                    que
+                    nos resulte posible evacuarla.
+                </p>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
