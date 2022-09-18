@@ -16,35 +16,20 @@
     grid-template-columns: 1fr 1fr 1fr;
     height: 100vh;
     background-image: url(../imagen/fondotodo.jpg);
-<<<<<<< HEAD
-    row-gap: px;
-=======
     row-gap: 10px;
->>>>>>> version2.0
     column-gap: 10px;
 }
 
 .contenido{
     display: flex;
     grid-area: carruzel;
-<<<<<<< HEAD
-    /* border: solid red; */    
-=======
->>>>>>> version2.0
 }
 
 .d-block {
     height: 450px;
     display: flex;
-<<<<<<< HEAD
-    /* border: solid blue; */
 }
 .carousel-item{
-    border: solid red;
-=======
-}
-.carousel-item{
->>>>>>> version2.0
     display: flex;
     justify-content: center;
 }
