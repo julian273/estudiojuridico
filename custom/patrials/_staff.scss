@@ -1,0 +1,17 @@
+.contenido__staff{
+    .carta__staff{
+        margin: 1rem;         
+        border: solid rgba(128, 128, 128, 0.664);
+        background-color: rgba(107, 107, 107, 0.2470588235);
+        .carta__staff__contenido{
+            margin: 15px;
+            ul {
+                font-style: italic;
+            }
+            .carta__staff__contenido_imagen{
+                display: flex;
+                align-items: center;                
+            }
+        }           
+    }
+}

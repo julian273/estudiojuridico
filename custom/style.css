@@ -1,0 +1,184 @@
+.encabezado {
+  border-bottom: solid 3px rgba(107, 107, 107, 0.2470588235);
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.3568627451);
+}
+.encabezado h1 {
+  margin-left: 15px;
+  color: #ffffff;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  margin: 10px;
+}
+.navbar .container .collapse .navbar-nav .nav-item .encabezado__lista__link {
+  color: #000000;
+}
+
+.row .carousel {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.row .carousel .carousel-inner .carousel-item {
+  display: flex;
+  justify-content: center;
+}
+.row .carousel .img {
+  height: 450px;
+  display: flex;
+}
+
+.principal__servicios {
+  margin: 10px;
+}
+.principal__servicios .card .card-header {
+  background-color: rgba(128, 128, 128, 0.664);
+}
+.principal__servicios .card .card-header .links {
+  text-decoration: none;
+  color: #000000;
+}
+.principal__servicios .card .card-body {
+  background-color: rgba(107, 107, 107, 0.2470588235);
+  font-style: italic;
+  color: #000000;
+}
+
+.principal__nosotros {
+  margin: 10px;
+}
+.principal__nosotros .card .card-header {
+  background-color: rgba(128, 128, 128, 0.664);
+}
+.principal__nosotros .card .card-header .links {
+  text-decoration: none;
+  color: #000000;
+}
+.principal__nosotros .card .card-body {
+  background-color: rgba(107, 107, 107, 0.2470588235);
+  font-style: italic;
+  color: #000000;
+}
+
+.principal__contacto {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+.principal__contacto .btn {
+  background-color: rgba(128, 128, 128, 0.664);
+}
+.principal__contacto .btn .links {
+  color: #000000;
+  text-decoration: none;
+}
+
+.especialidades_card {
+  margin: 10px;
+}
+
+.historia_card {
+  margin: 10px;
+}
+
+.servicios {
+  display: flex;
+  justify-content: space-evenly;
+}
+.servicios .tres_cartas {
+  display: flex;
+  justify-content: space-evenly;
+}
+.servicios .carta__servicios {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  background-color: rgba(107, 107, 107, 0.2470588235);
+}
+.servicios .carta__servicios .medida {
+  height: 400px;
+}
+.servicios .carta__servicios .fondo {
+  justify-content: center;
+}
+.servicios .carta__servicios .fondo h4 {
+  justify-content: center;
+  display: flex;
+}
+.servicios .carta__servicios .fondo p {
+  font-style: italic;
+}
+
+.contenido__staff .carta__staff {
+  margin: 1rem;
+  border: solid rgba(128, 128, 128, 0.664);
+  background-color: rgba(107, 107, 107, 0.2470588235);
+}
+.contenido__staff .carta__staff .carta__staff__contenido {
+  margin: 15px;
+}
+.contenido__staff .carta__staff .carta__staff__contenido ul {
+  font-style: italic;
+}
+.contenido__staff .carta__staff .carta__staff__contenido .carta__staff__contenido_imagen {
+  display: flex;
+  align-items: center;
+}
+
+.contacto .contacto__formulario {
+  margin: 0.2rem;
+  font-style: italic;
+  border: solid rgba(128, 128, 128, 0.664);
+  background-color: rgba(107, 107, 107, 0.2470588235);
+}
+.contacto .contacto__mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacto .contacto__redSocial {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacto .contacto__redSocial .redSocial {
+  width: 50px;
+  height: 50px;
+}
+
+.pie {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.pie .pie__informacion .pie__informacion__contacto .pie__informacion__parrafo {
+  font-style: italic;
+}
+.pie .pie__informacion .pie__informacion__contacto .pie__informacion__parrafo .pie__informacion__link__wsp {
+  text-decoration: none;
+}
+.pie .pie__informacion .pie__informacion__contacto .pie__informacion__parrafo .pie_red {
+  text-decoration: none;
+  height: 20px;
+  width: 20px;
+}
+.pie .pie__redes {
+  display: flex;
+}
+.pie .pie__redes .pie__redes__sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+.pie .pie__redes .pie__redes__sociales .redSocial {
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+}/*# sourceMappingURL=style.css.map */
