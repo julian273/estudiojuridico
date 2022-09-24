@@ -1,0 +1,27 @@
+.servicios {
+    display: flex;
+    justify-content: space-evenly;
+    .tres_cartas{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .carta__servicios{
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+        background-color: rgba(107, 107, 107, 0.2470588235);
+        .medida {
+            height: 400px;
+        }
+        .fondo{
+            justify-content: center;
+            h4 {
+                justify-content: center;
+                display: flex;
+            }
+            p{
+                font-style: italic;
+            }
+        }
+    }
+}

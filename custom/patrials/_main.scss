@@ -1,0 +1,48 @@
+.principal__servicios{
+    margin: 10px;
+    .card{
+        .card-header{
+            background-color: rgba(128, 128, 128, 0.664);
+            .links{
+                text-decoration: none;
+                color: #000000;
+            }
+        }
+        .card-body {
+            background-color: #6b6b6b3f;
+            font-style: italic;
+            color: #000000;            
+        }
+    }
+}
+
+.principal__nosotros{
+    margin: 10px;
+    .card{
+        .card-header{
+            background-color: rgba(128, 128, 128, 0.664);
+            .links{
+                text-decoration: none;
+                color: #000000;
+            }
+        }
+        .card-body {
+            background-color: #6b6b6b3f;
+            font-style: italic;
+            color: #000000;            
+        }
+    }
+}
+
+.principal__contacto{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    .btn{
+        background-color: rgba(128, 128, 128, 0.664);
+        .links{
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+}
