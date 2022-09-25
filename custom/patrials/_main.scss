@@ -1,48 +1,80 @@
-.principal__servicios{
-    margin: 10px;
-    .card{
-        .card-header{
-            background-color: rgba(128, 128, 128, 0.664);
-            .links{
-                text-decoration: none;
-                color: #000000;
-            }
-        }
-        .card-body {
-            background-color: #6b6b6b3f;
-            font-style: italic;
-            color: #000000;            
-        }
-    }
-}
-
-.principal__nosotros{
-    margin: 10px;
-    .card{
-        .card-header{
-            background-color: rgba(128, 128, 128, 0.664);
-            .links{
-                text-decoration: none;
-                color: #000000;
-            }
-        }
-        .card-body {
-            background-color: #6b6b6b3f;
-            font-style: italic;
-            color: #000000;            
-        }
-    }
-}
-
-.principal__contacto{
-    margin: 15px;
+.informacion{
     display: flex;
-    justify-content: center;
-    .btn{
-        background-color: rgba(128, 128, 128, 0.664);
-        .links{
-            color: #000000;
-            text-decoration: none;
+    justify-content: space-between;
+    .principal__servicios{             
+        display: flex;
+        .card{
+            margin-top: 10px;
+            border: none;
+            .card-header{
+                animation-name: traslacion_staff;
+                animation-duration: 1s;
+                animation-iteration-count: 1;
+                border-bottom: solid 3px #34495E;
+                .links{
+                    text-decoration: none;
+                    color: #8a8a8a;
+                }
+            }
+            .card-body {
+                animation-name: traslacion_staff;
+                animation-duration: 1s;
+                animation-iteration-count: 1;                
+                font-style: italic;
+                color: #252525; 
+                .card-text{
+                    animation-name: traslacion_staff;
+                    animation-duration: 1.3s;
+                    animation-iteration-count: 1;
+                }        
+            }
+        }
+    }
+    .principal__nosotros{        
+        display: flex;
+        .card{
+            margin-top: 10px;
+            border: none;
+            .card-header{  
+                animation-name: traslacion_staff;
+                animation-duration: 1s;
+                animation-iteration-count: 1;
+                border-bottom: solid 3px #34495E;
+                .links{
+                    text-decoration: none;
+                    color: #8a8a8a;
+                }
+            }
+            .card-body {
+                animation-name: traslacion_staff;
+                animation-duration: 1.3s;
+                animation-iteration-count: 1;                
+                font-style: italic;
+                color: #252525;            
+            }
+        }
+    }
+    .principal__contacto{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        .principal__contacto__boton{    
+            padding: 10px;
+            background-color: #34495E;
+            border-bottom: solid 2px #252525;
+            border-right: #252525 solid 2px;
+            border-left: solid 1px #252525;
+            border-top: solid 1px #252525;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 3px;
+            border-top-right-radius: 3px; 
+            border-top-left-radius: 3px;
+            transition: padding 1s, background-color 1s red, border-bottom 3s;
+            .links{
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 700;
+            }        
         }
     }
 }

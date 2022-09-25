@@ -1,10 +1,10 @@
 .encabezado {
     border-bottom: solid 3px rgba(107, 107, 107, 0.2470588235);
     display: flex;
-    background-color: #8080805b;
+    background-color: #34495E;
     h1 {
         margin-left: 15px;
-        color: #ffffff;
+        color: #707B7C ;
         font-style: italic;
         display: flex;
         align-items: center;
@@ -17,8 +17,8 @@
         .collapse {
             .navbar-nav{
                 .nav-item{
-                    .encabezado__lista__link{
-                        color: #000000;
+                    .encabezado__lista__link:active{
+                        color: #D4AC0D ;
                     }
                 }
             }
