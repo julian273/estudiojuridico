@@ -1,11 +1,11 @@
 .encabezado {
   border-bottom: solid 3px rgba(107, 107, 107, 0.2470588235);
   display: flex;
-  background-color: rgba(128, 128, 128, 0.3568627451);
+  background-color: #34495E;
 }
 .encabezado h1 {
   margin-left: 15px;
-  color: #FFAC12;
+  color: #707B7C;
   font-style: italic;
   display: flex;
   align-items: center;
@@ -14,8 +14,8 @@
 .navbar {
   margin: 10px;
 }
-.navbar .container .collapse .navbar-nav .nav-item .encabezado__lista__link {
-  color: #000000;
+.navbar .container .collapse .navbar-nav .nav-item .encabezado__lista__link:active {
+  color: #D4AC0D;
 }
 
 .row .carousel {
@@ -27,62 +27,186 @@
   display: flex;
   justify-content: center;
 }
-.row .carousel .img {
-  height: 450px;
+
+.informacion {
+  display: flex;
+  justify-content: space-between;
+}
+.informacion .principal__servicios {
   display: flex;
 }
-
-.principal__servicios {
-  margin: 10px;
+.informacion .principal__servicios .card {
+  margin-top: 10px;
+  border: none;
 }
-.principal__servicios .card .card-header {
-  background-color: rgba(128, 128, 128, 0.664);
+.informacion .principal__servicios .card .card-header {
+  -webkit-animation-name: traslacion_staff;
+          animation-name: traslacion_staff;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  border-bottom: solid 3px #34495E;
 }
-.principal__servicios .card .card-header .links {
+.informacion .principal__servicios .card .card-header .links {
   text-decoration: none;
-  color: #000000;
+  color: #8a8a8a;
 }
-.principal__servicios .card .card-body {
-  background-color: rgba(107, 107, 107, 0.2470588235);
+.informacion .principal__servicios .card .card-body {
+  -webkit-animation-name: traslacion_staff;
+          animation-name: traslacion_staff;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
   font-style: italic;
-  color: #000000;
+  color: #252525;
 }
-
-.principal__nosotros {
-  margin: 10px;
+.informacion .principal__servicios .card .card-body .card-text {
+  -webkit-animation-name: traslacion_staff;
+          animation-name: traslacion_staff;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
-.principal__nosotros .card .card-header {
-  background-color: rgba(128, 128, 128, 0.664);
+.informacion .principal__nosotros {
+  display: flex;
 }
-.principal__nosotros .card .card-header .links {
+.informacion .principal__nosotros .card {
+  margin-top: 10px;
+  border: none;
+}
+.informacion .principal__nosotros .card .card-header {
+  -webkit-animation-name: traslacion_staff;
+          animation-name: traslacion_staff;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  border-bottom: solid 3px #34495E;
+}
+.informacion .principal__nosotros .card .card-header .links {
   text-decoration: none;
-  color: #000000;
+  color: #8a8a8a;
 }
-.principal__nosotros .card .card-body {
-  background-color: rgba(107, 107, 107, 0.2470588235);
+.informacion .principal__nosotros .card .card-body {
+  -webkit-animation-name: traslacion_staff;
+          animation-name: traslacion_staff;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
   font-style: italic;
-  color: #000000;
+  color: #252525;
 }
-
-.principal__contacto {
-  margin: 15px;
+.informacion .principal__contacto {
+  padding: 10px;
   display: flex;
   justify-content: center;
 }
-.principal__contacto .btn {
-  background-color: rgba(128, 128, 128, 0.664);
+.informacion .principal__contacto .principal__contacto__boton {
+  padding: 10px;
+  background-color: #34495E;
+  border-bottom: solid 2px #252525;
+  border-right: #252525 solid 2px;
+  border-left: solid 1px #252525;
+  border-top: solid 1px #252525;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  transition: padding 1s, background-color 1s red, border-bottom 3s;
 }
-.principal__contacto .btn .links {
-  color: #000000;
+.informacion .principal__contacto .principal__contacto__boton .links {
+  color: #ffffff;
   text-decoration: none;
+  font-weight: 700;
 }
 
-.especialidades_card {
-  margin: 10px;
+.contenido_nosotros {
+  display: flex;
 }
-
-.historia_card {
-  margin: 10px;
+.contenido_nosotros .especialidades {
+  border: none;
+}
+.contenido_nosotros .especialidades .especialidades_titulo {
+  border-bottom: solid 3px #34495E;
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  font-style: italic;
+}
+.contenido_nosotros .especialidades .especialidades_contenido {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.contenido_nosotros .especialidades .especialidades_contenido .especialidades_contenido_parrafo {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.contenido_nosotros .especialidades .especialidades_contenido .especialidades_contenido_titulo {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.contenido_nosotros .especialidades .especialidades_contenido .especialidades_contenido_resultados {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.contenido_nosotros .historia_card {
+  border: none;
+}
+.contenido_nosotros .historia_card .historia_card_titulo {
+  border-bottom: solid 3px #34495E;
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.contenido_nosotros .historia_card .historia_card_contenido {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.contenido_nosotros .historia_card .historia_card_contenido .historia_card_contenido_titulo {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.contenido_nosotros .historia_card .historia_card_contenido .historia_card_contenido_parrafo {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 .servicios {
@@ -94,48 +218,155 @@
   justify-content: space-evenly;
 }
 .servicios .carta__servicios {
+  border: none;
   display: flex;
-  margin: 20px;
+  margin-top: 20px;
   justify-content: center;
-  background-color: rgba(107, 107, 107, 0.2470588235);
 }
 .servicios .carta__servicios .medida {
   height: 400px;
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 .servicios .carta__servicios .fondo {
   justify-content: center;
 }
 .servicios .carta__servicios .fondo h4 {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  border-bottom: solid 3px #34495E;
   justify-content: center;
   display: flex;
 }
 .servicios .carta__servicios .fondo p {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
   font-style: italic;
 }
 
 .contenido__staff .carta__staff {
-  margin: 1rem;
-  border: solid rgba(128, 128, 128, 0.664);
-  background-color: rgba(107, 107, 107, 0.2470588235);
+  border: none;
 }
 .contenido__staff .carta__staff .carta__staff__contenido {
-  margin: 15px;
+  margin: 5px;
 }
-.contenido__staff .carta__staff .carta__staff__contenido ul {
+.contenido__staff .carta__staff .carta__staff__contenido .carta__staff__contenido__texto {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.contenido__staff .carta__staff .carta__staff__contenido .carta__staff__contenido__texto .carta__staff__contenido__texto__titulo {
+  border-bottom: solid 3px #34495E;
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.contenido__staff .carta__staff .carta__staff__contenido .carta__staff__contenido__texto ul {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
   font-style: italic;
 }
 .contenido__staff .carta__staff .carta__staff__contenido .carta__staff__contenido_imagen {
+  -webkit-animation-name: traslacion_staff;
+          animation-name: traslacion_staff;
+  -webkit-animation-duration: 1.6s;
+          animation-duration: 1.6s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
   display: flex;
   align-items: center;
 }
+@-webkit-keyframes traslacion_staff {
+  0% {
+    transform: translateX(-250px);
+  }
+  100% {
+    transform: translateX(px);
+  }
+}
+@keyframes traslacion_staff {
+  0% {
+    transform: translateX(-250px);
+  }
+  100% {
+    transform: translateX(px);
+  }
+}
+@-webkit-keyframes traslacion_staff_texto {
+  0% {
+    transform: translateX(-600px);
+  }
+  100% {
+    transform: translateX(px);
+  }
+}
+@keyframes traslacion_staff_texto {
+  0% {
+    transform: translateX(-600px);
+  }
+  100% {
+    transform: translateX(px);
+  }
+}
 
+.contacto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .contacto .contacto__formulario {
-  margin: 0.2rem;
+  border-bottom: solid 3px #34495E;
+  margin-top: 10px;
   font-style: italic;
-  border: solid rgba(128, 128, 128, 0.664);
-  background-color: rgba(107, 107, 107, 0.2470588235);
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.contacto .contacto__formulario .form-label {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  display: flex;
+  border-bottom: solid 3px #34495E;
+}
+.contacto .contacto__formulario .form-control {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 .contacto .contacto__mapa {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,8 +378,8 @@
   align-items: center;
 }
 .contacto .contacto__redSocial .redSocial {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 }
 
 .pie {

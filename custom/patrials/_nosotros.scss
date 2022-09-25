@@ -1,10 +1,69 @@
-.especialidades_card{
-    margin: 10px;  
-           
-     
-}
+.contenido_nosotros {
+    display: flex;
 
-.historia_card {
-    margin: 10px;
-    
+    .especialidades {
+        border: none;
+        .especialidades_titulo {
+            border-bottom: solid 3px #34495E;
+            animation-name: traslacion_staff_texto;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            font-style: italic;
+        }
+
+        .especialidades_contenido {
+            animation-name: traslacion_staff_texto;
+            animation-duration: 1.3s;
+            animation-iteration-count: 1;
+
+            .especialidades_contenido_parrafo {
+                animation-name: traslacion_staff_texto;
+                animation-duration: 1s;
+                animation-iteration-count: 1;
+            }
+
+            .especialidades_contenido_titulo {
+                animation-name: traslacion_staff_texto;
+                animation-duration: 1.3s;
+                animation-iteration-count: 1;
+            }
+
+            .especialidades_contenido_resultados {
+                animation-name: traslacion_staff_texto;
+                animation-duration: 1.3s;
+                animation-iteration-count: 1;
+            }
+        }
+    }
+
+    .historia_card {
+        border: none;
+
+        .historia_card_titulo {
+            border-bottom: solid 3px #34495E;
+            animation-name: traslacion_staff_texto;
+            animation-duration: 1.3s;
+            animation-iteration-count: 1;
+
+        }
+
+        .historia_card_contenido {
+            animation-name: traslacion_staff_texto;
+            animation-duration: 1.3s;
+            animation-iteration-count: 1;
+
+            .historia_card_contenido_titulo {
+                animation-name: traslacion_staff_texto;
+                animation-duration: 1s;
+                animation-iteration-count: 1;
+
+            }
+
+            .historia_card_contenido_parrafo {
+                animation-name: traslacion_staff_texto;
+                animation-duration: 1.3s;
+                animation-iteration-count: 1;
+            }
+        }
+    }
 }
