@@ -1,10 +1,10 @@
 .encabezado {
-    border-bottom: solid 3px rgba(107, 107, 107, 0.2470588235);
+    border-bottom: solid 3px map-get($coloresEncabezado, bordeBajo);
     display: flex;
-    background-color: #34495E;
+    background-color: map-get($coloresEncabezado, backgroundHeader);
     h1 {
         margin-left: 15px;
-        color: #707B7C ;
+        color: map-get($coloresEncabezado, colorTituloHeader );
         font-style: italic;
         display: flex;
         align-items: center;
@@ -16,9 +16,11 @@
     .container{
         .collapse {
             .navbar-nav{
-                .nav-item{
-                    .encabezado__lista__link:active{
-                        color: #D4AC0D ;
+                .nav-item{                    
+                    .encabezado__lista__link:hover{
+                        &:hover{
+                            color: map-get($coloresEncabezado, colorLinksNav);
+                        }
                     }
                 }
             }

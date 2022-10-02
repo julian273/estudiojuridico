@@ -10,10 +10,10 @@
                 animation-name: traslacion_staff;
                 animation-duration: 1s;
                 animation-iteration-count: 1;
-                border-bottom: solid 3px #34495E;
+                border-bottom: solid 3px map-get($coloresEncabezado, backgroundHeader);
                 .links{
                     text-decoration: none;
-                    color: #8a8a8a;
+                    color: map-get($colorLinkCartas, colorLinkCartas );
                 }
             }
             .card-body {
@@ -21,7 +21,7 @@
                 animation-duration: 1s;
                 animation-iteration-count: 1;                
                 font-style: italic;
-                color: #252525; 
+                color: map-get($colorTexto, colorTexto); 
                 .card-text{
                     animation-name: traslacion_staff;
                     animation-duration: 1.3s;
@@ -39,10 +39,10 @@
                 animation-name: traslacion_staff;
                 animation-duration: 1s;
                 animation-iteration-count: 1;
-                border-bottom: solid 3px #34495E;
+                border-bottom: solid 3px map-get($coloresEncabezado, backgroundHeader);
                 .links{
                     text-decoration: none;
-                    color: #8a8a8a;
+                    color: map-get($colorLinks, colorLinks);
                 }
             }
             .card-body {
@@ -50,7 +50,7 @@
                 animation-duration: 1.3s;
                 animation-iteration-count: 1;                
                 font-style: italic;
-                color: #252525;            
+                color: map-get($colorTexto, colorTexto);            
             }
         }
     }
@@ -58,22 +58,11 @@
         padding: 10px;
         display: flex;
         justify-content: center;
-        .principal__contacto__boton{    
-            padding: 10px;
-            background-color: #34495E;
-            border-bottom: solid 2px #252525;
-            border-right: #252525 solid 2px;
-            border-left: solid 1px #252525;
-            border-top: solid 1px #252525;
-            border-bottom-right-radius: 5px;
-            border-bottom-left-radius: 3px;
-            border-top-right-radius: 3px; 
-            border-top-left-radius: 3px;
-            transition: padding 1s, background-color 1s red, border-bottom 3s;
+        .principal__contacto__boton{   
+            @extend %botonDefault;           
             .links{
-                color: #ffffff;
-                text-decoration: none;
-                font-weight: 700;
+                color: map-get($colorBotones, colorLinkBoton);
+                text-decoration: none;                
             }        
         }
     }

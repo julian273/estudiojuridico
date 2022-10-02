@@ -1,8 +1,8 @@
 .pie{
     display: flex;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: map-get($coloresfooter, backgroundFooter);
+    color: map-get($coloresfooter, textoFooter);
     .pie__informacion{
         .pie__informacion__contacto{
             .pie__informacion__parrafo{
@@ -18,13 +18,17 @@
             }
         }
     }
+    
     .pie__redes{
         display: flex;
         .pie__redes__sociales{
             display: flex;
             justify-content: center;
             align-items: center;
-            align-content: space-around;           
+            align-content: space-around;
+            .pie__redes__sociales_lista{
+                list-style-type: none;
+            }
             .redSocial{
                 margin: 10px;
                 height: 40px;

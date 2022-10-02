@@ -11,7 +11,7 @@
                 animation-iteration-count: 1;
 
                 .carta__staff__contenido__texto__titulo {
-                    border-bottom: solid 3px #34495E;
+                    border-bottom: solid 3px map-get($coloresEncabezado, colorTituloHeader );
                     animation-name: traslacion_staff_texto;
                     animation-duration: 1s;
                     animation-iteration-count: 1;
