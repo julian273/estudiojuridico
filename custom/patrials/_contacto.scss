@@ -20,11 +20,7 @@
             animation-name: traslacion_staff_texto;
             animation-duration: .8s;
             animation-iteration-count: 1;
-        }
-        .btn{
-            margin-bottom: 5px; 
-            @extend %botonDefault;                               
-        }
+        }        
     }
     .contacto__mapa{
         margin-top: 10px;

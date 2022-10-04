@@ -1,4 +1,25 @@
-.contacto .contacto__formulario .btn, .informacion .principal__contacto .principal__contacto__boton {
+.principal__contacto__boton {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(52, 73, 94);
+  border-bottom: solid 2px rgb(37, 37, 37);
+  border-right: solid 2px rgb(37, 37, 37);
+  border-left: solid 1px rgb(37, 37, 37);
+  border-top: solid 1px rgb(37, 37, 37);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  font-weight: 700;
+}
+
+.principal__contacto__boton .links {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.boton {
+  margin-bottom: 10px;
   padding: 10px;
   color: rgb(255, 255, 255);
   background-color: rgb(52, 73, 94);
@@ -119,10 +140,6 @@
   padding: 10px;
   display: flex;
   justify-content: center;
-}
-.informacion .principal__contacto .principal__contacto__boton .links {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
 }
 
 .contenido_nosotros {
@@ -365,9 +382,6 @@
           animation-duration: 0.8s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-}
-.contacto .contacto__formulario .btn {
-  margin-bottom: 5px;
 }
 .contacto .contacto__mapa {
   margin-top: 10px;
