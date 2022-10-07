@@ -20,19 +20,24 @@
     }
     
     .pie__redes{
-        display: flex;
         .pie__redes__sociales{
-            display: flex;
             justify-content: center;
-            align-items: center;
-            align-content: space-around;
             .pie__redes__sociales_lista{
+                display: flex;
+                justify-content: space-between;
                 list-style-type: none;
-            }
-            .redSocial{
-                margin: 10px;
-                height: 40px;
-                width: 40px;
+                .pie__redes__sociales_lista_li{                    
+                    a{
+                        color: map-get($coloresfooter, textoFooter);
+                        text-decoration: none;                                             
+                    }
+                    .redSocial{
+                        list-style-type: none;
+                        display: flex;
+                        margin: 10px;
+                        height: 40px;
+                    }
+                }
             }
         }
     }  

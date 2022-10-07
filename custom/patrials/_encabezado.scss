@@ -16,7 +16,10 @@
     .container{
         .collapse {
             .navbar-nav{
-                .nav-item{                    
+                .nav-item{                         
+                    a{
+                        color: map-get($coloresEncabezado, colorlink);
+                    }           
                     .encabezado__lista__link:hover{
                         &:hover{
                             color: map-get($coloresEncabezado, colorLinksNav);

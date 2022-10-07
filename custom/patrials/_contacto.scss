@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     align-items: center;
     .contacto__formulario{ 
+        margin-bottom: 100px;
         border-bottom: solid 3px map-get($coloresEncabezado, backgroundHeader);
         margin-top: 10px;           
         font-style: italic;
@@ -27,15 +28,5 @@
         display: flex;
         justify-content: center;
         align-items: center;        
-    }
-    .contacto__redSocial{
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .redSocial{
-            width: 45px;
-            height: 45px;
-        }
-    }
+    }    
 }

@@ -50,6 +50,9 @@
 .navbar {
   margin: 10px;
 }
+.navbar .container .collapse .navbar-nav .nav-item a {
+  color: rgb(255, 255, 255);
+}
 .navbar .container .collapse .navbar-nav .nav-item .encabezado__lista__link:hover:hover {
   color: rgb(212, 172, 13);
 }
@@ -355,6 +358,7 @@
   align-items: center;
 }
 .contacto .contacto__formulario {
+  margin-bottom: 100px;
   border-bottom: solid 3px rgb(52, 73, 94);
   margin-top: 10px;
   font-style: italic;
@@ -389,16 +393,6 @@
   justify-content: center;
   align-items: center;
 }
-.contacto .contacto__redSocial {
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.contacto .contacto__redSocial .redSocial {
-  width: 45px;
-  height: 45px;
-}
 
 .pie {
   display: flex;
@@ -417,20 +411,21 @@
   height: 20px;
   width: 20px;
 }
-.pie .pie__redes {
-  display: flex;
-}
 .pie .pie__redes .pie__redes__sociales {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  align-content: space-around;
 }
 .pie .pie__redes .pie__redes__sociales .pie__redes__sociales_lista {
+  display: flex;
+  justify-content: space-between;
   list-style-type: none;
 }
-.pie .pie__redes .pie__redes__sociales .redSocial {
+.pie .pie__redes .pie__redes__sociales .pie__redes__sociales_lista .pie__redes__sociales_lista_li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.pie .pie__redes .pie__redes__sociales .pie__redes__sociales_lista .pie__redes__sociales_lista_li .redSocial {
+  list-style-type: none;
+  display: flex;
   margin: 10px;
   height: 40px;
-  width: 40px;
 }/*# sourceMappingURL=style.css.map */
