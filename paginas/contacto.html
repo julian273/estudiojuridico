@@ -42,7 +42,8 @@
                             </li>
                             <span class="border-end"></span>
                             <li class="nav-item">
-                                <a href="../paginas/servicios.html" class="encabezado__lista__link nav-link">Servicio</a>
+                                <a href="../paginas/servicios.html"
+                                    class="encabezado__lista__link nav-link">Servicios</a>
                             </li>
                             <span class="border-end"></span>
                             <li class="nav-item">
@@ -73,11 +74,21 @@
             <button type="button" class="boton">Enviar</button>
         </section>
 
-        <div class="contacto__mapa col-sm-12 col-md-12 col-lg-5">
-            <a href="#">
-                <img src="../imagen/maps1.jpg" alt="mapa de ubicacion" class="contacto__mapa__ubi img-fluid">
-            </a>
-        </div>        
+        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3" class="maps col-sm-12 col-md-12 col-lg-4">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+            <script>(function () {
+                    var setting = { "height": 400, "width": 650, "zoom": 17, "queryString": "Monumento Nacional a la Bandera, Santa Fe, Rosario, Santa Fe, Argentina", "place_id": "ChIJb9O2yR2rt5URUdiUTVjpuZc", "satellite": false, "centerCoord": [-32.947706360292216, -60.63044355], "cid": "0x97b9e9584d94d851", "lang": "es", "cityUrl": "/argentina/rosario-19474", "cityAnchorText": "Mapa de Rosario, South Argentina, Argentina", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "821347" };
+                    var d = document;
+                    var s = d.createElement('script');
+                    s.src = 'https://1map.com/js/script-for-user.js?embed_id=821347';
+                    s.async = true;
+                    s.onload = function (e) {
+                        window.OneMap.initMap(setting)
+                    };
+                    var to = d.getElementsByTagName('script')[0];
+                    to.parentNode.insertBefore(s, to);
+                })();</script><a href="https://1map.com/es/map-embed">1 Map</a>
+        </div>
     </article>
 
     <footer class="pie row">
@@ -87,8 +98,9 @@
                 <h3 class="pie__titulo">Estudio Ramonda, Frúgoli & Asoc</h3>
                 <p class="pie__informacion__parrafo">9 de julio 3119 Piso 5.</p>
                 <p class="pie__informacion__parrafo">Rosario, Santa Fe (CP 2000)</p>
-                <p class="pie__informacion__parrafo"> <a href="#" class="pie__informacion__link__wsp"><img
-                            src="../imagen/WhatsApp.png" class="pie_red" alt="Whatsapp"> 03412824649</a> </p>
+                <p class="pie__informacion__parrafo"> <a href="https://wa.me/3412824647"
+                        class="pie__informacion__link__wsp"><img src="../imagen/WhatsApp.png" class="pie_red"
+                            alt="Whatsapp"> WhatsApp</a></p>
             </div>
         </div>
 

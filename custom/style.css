@@ -403,6 +403,10 @@
 .pie .pie__informacion .pie__informacion__contacto .pie__informacion__parrafo {
   font-style: italic;
 }
+.pie .pie__informacion .pie__informacion__contacto .pie__informacion__parrafo a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
 .pie .pie__informacion .pie__informacion__contacto .pie__informacion__parrafo .pie__informacion__link__wsp {
   text-decoration: none;
 }

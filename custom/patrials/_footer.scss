@@ -7,6 +7,10 @@
         .pie__informacion__contacto{
             .pie__informacion__parrafo{
                 font-style: italic;
+                a{
+                    color: map-get($coloresfooter, textoFooter);
+                    text-decoration: none;
+                }
                 .pie__informacion__link__wsp{
                     text-decoration: none;
                 }
