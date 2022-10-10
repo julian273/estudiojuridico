@@ -57,14 +57,17 @@
   color: rgb(212, 172, 13);
 }
 
-.row .carousel {
+.carousel_img .carousel {
   display: flex;
   justify-content: center;
   align-content: center;
 }
-.row .carousel .carousel-inner .carousel-item {
+.carousel_img .carousel .carousel-inner .carousel-item {
   display: flex;
   justify-content: center;
+}
+.carousel_img .carousel .carousel-inner .carousel-item .d-block {
+  height: 30rem;
 }
 
 .informacion {
@@ -387,11 +390,13 @@
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
 }
-.contacto .contacto__mapa {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.contacto .contacto__maps {
+  -webkit-animation-name: traslacion_staff_texto;
+          animation-name: traslacion_staff_texto;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 .pie {

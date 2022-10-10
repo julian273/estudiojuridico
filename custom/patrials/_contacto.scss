@@ -23,10 +23,9 @@
             animation-iteration-count: 1;
         }        
     }
-    .contacto__mapa{
-        margin-top: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;        
-    }    
+    .contacto__maps{
+        animation-name: traslacion_staff_texto;
+        animation-duration: .8s;
+        animation-iteration-count: 1;
+    }      
 }
