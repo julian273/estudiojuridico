@@ -3,6 +3,7 @@
 
     .especialidades {
         border: none;
+
         .especialidades_titulo {
             border-bottom: solid 3px map-get($coloresEncabezado, backgroundHeader);
             animation-name: traslacion_staff_texto;

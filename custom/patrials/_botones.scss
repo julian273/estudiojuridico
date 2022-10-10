@@ -1,12 +1,13 @@
 .principal__contacto__boton {
     @extend %botonDefault;
+
     .links {
         color: map-get($colorBotones, colorLinkBoton);
         text-decoration: none;
     }
 }
 
-.boton{
+.boton {
     margin-bottom: 10px;
-    @include  boton ($backColor: rgb(52, 73, 94));
+    @include boton ($backColor: rgb(52, 73, 94));
 }

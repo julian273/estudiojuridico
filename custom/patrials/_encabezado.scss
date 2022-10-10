@@ -2,26 +2,29 @@
     border-bottom: solid 3px map-get($coloresEncabezado, bordeBajo);
     display: flex;
     background-color: map-get($coloresEncabezado, backgroundHeader);
+
     h1 {
         margin-left: 15px;
-        color: map-get($coloresEncabezado, colorTituloHeader );
+        color: map-get($coloresEncabezado, colorTituloHeader);
         font-style: italic;
         display: flex;
         align-items: center;
-    }    
+    }
 }
 
-.navbar{
+.navbar {
     margin: 10px;
-    .container{
+
+    .container {
         .collapse {
-            .navbar-nav{
-                .nav-item{                         
-                    a{
+            .navbar-nav {
+                .nav-item {
+                    a {
                         color: map-get($coloresEncabezado, colorlink);
-                    }           
-                    .encabezado__lista__link:hover{
-                        &:hover{
+                    }
+
+                    .encabezado__lista__link:hover {
+                        &:hover {
                             color: map-get($coloresEncabezado, colorLinksNav);
                         }
                     }

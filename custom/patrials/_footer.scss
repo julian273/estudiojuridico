@@ -1,19 +1,23 @@
-.pie{
+.pie {
     display: flex;
     align-items: center;
     background-color: map-get($coloresfooter, backgroundFooter);
     color: map-get($coloresfooter, textoFooter);
-    .pie__informacion{
-        .pie__informacion__contacto{
-            .pie__informacion__parrafo{
+
+    .pie__informacion {
+        .pie__informacion__contacto {
+            .pie__informacion__parrafo {
                 font-style: italic;
-                a{
+
+                a {
                     color: map-get($coloresfooter, textoFooter);
                     text-decoration: none;
                 }
-                .pie__informacion__link__wsp{
+
+                .pie__informacion__link__wsp {
                     text-decoration: none;
                 }
+
                 .pie_red {
                     text-decoration: none;
                     height: 20px;
@@ -22,20 +26,23 @@
             }
         }
     }
-    
-    .pie__redes{
-        .pie__redes__sociales{
+
+    .pie__redes {
+        .pie__redes__sociales {
             justify-content: center;
-            .pie__redes__sociales_lista{
+
+            .pie__redes__sociales_lista {
                 display: flex;
                 justify-content: space-between;
                 list-style-type: none;
-                .pie__redes__sociales_lista_li{                    
-                    a{
+
+                .pie__redes__sociales_lista_li {
+                    a {
                         color: map-get($coloresfooter, textoFooter);
-                        text-decoration: none;                                             
+                        text-decoration: none;
                     }
-                    .redSocial{
+
+                    .redSocial {
                         list-style-type: none;
                         display: flex;
                         margin: 10px;
@@ -44,5 +51,5 @@
                 }
             }
         }
-    }  
+    }
 }

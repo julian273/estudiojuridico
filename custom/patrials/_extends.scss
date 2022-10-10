@@ -1,6 +1,6 @@
 %botonDefault {
     padding: 10px;
-    color: map-get($colorBotones, colorLinkBoton );
+    color: map-get($colorBotones, colorLinkBoton);
     background-color: map-get($colorBotones, backgroundBoton);
     border-bottom: solid 2px map-get($colorBotones, borderBoton);
     border-right: solid 2px map-get($colorBotones, borderBoton);
@@ -8,7 +8,7 @@
     border-top: solid 1px map-get($colorBotones, borderBoton);
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 3px;
-    border-top-right-radius: 3px; 
+    border-top-right-radius: 3px;
     border-top-left-radius: 3px;
-    font-weight: 700; 
+    font-weight: 700;
 }

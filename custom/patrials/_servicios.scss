@@ -1,23 +1,28 @@
 .servicios {
     display: flex;
     justify-content: space-evenly;
-    .tres_cartas{
+
+    .tres_cartas {
         display: flex;
         justify-content: space-evenly;
     }
-    .carta__servicios{
+
+    .carta__servicios {
         border: none;
         display: flex;
         margin-top: 20px;
         justify-content: center;
+
         .medida {
             height: 400px;
             animation-name: traslacion_staff_texto;
             animation-duration: 1.2s;
             animation-iteration-count: 1;
         }
-        .fondo{
+
+        .fondo {
             justify-content: center;
+
             h4 {
                 animation-name: traslacion_staff_texto;
                 animation-duration: 1.1s;
@@ -26,7 +31,8 @@
                 justify-content: center;
                 display: flex;
             }
-            p{
+
+            p {
                 animation-name: traslacion_staff_texto;
                 animation-duration: 1.5s;
                 animation-iteration-count: 1;

@@ -1,15 +1,16 @@
-
-.carousel_img{
-    .carousel{
+.carousel_img {
+    .carousel {
         display: flex;
         justify-content: center;
-        align-content: center; 
-        .carousel-inner{
-            .carousel-item{
+        align-content: center;
+
+        .carousel-inner {
+            .carousel-item {
                 display: flex;
                 justify-content: center;
-                .d-block{
-                   height: 30rem;                                      
+
+                .d-block {
+                    height: 30rem;
                 }
             }
         }

@@ -1,63 +1,75 @@
-.informacion{
+.informacion {
     display: flex;
     justify-content: space-between;
-    .principal__servicios{             
+
+    .principal__servicios {
         display: flex;
-        .card{
+
+        .card {
             margin-top: 10px;
             border: none;
-            .card-header{
+
+            .card-header {
                 animation-name: traslacion_staff;
                 animation-duration: 1s;
                 animation-iteration-count: 1;
                 border-bottom: solid 3px map-get($coloresEncabezado, backgroundHeader);
-                .links{
+
+                .links {
                     text-decoration: none;
-                    color: map-get($colorLinkCartas, colorLinkCartas );
+                    color: map-get($colorLinkCartas, colorLinkCartas);
                 }
             }
+
             .card-body {
                 animation-name: traslacion_staff;
                 animation-duration: 1s;
-                animation-iteration-count: 1;                
+                animation-iteration-count: 1;
                 font-style: italic;
-                color: map-get($colorTexto, colorTexto); 
-                .card-text{
+                color: map-get($colorTexto, colorTexto);
+
+                .card-text {
                     animation-name: traslacion_staff;
                     animation-duration: 1.3s;
                     animation-iteration-count: 1;
-                }        
+                }
             }
         }
     }
-    .principal__nosotros{        
+
+    .principal__nosotros {
         display: flex;
-        .card{
+
+        .card {
             margin-top: 10px;
             border: none;
-            .card-header{  
+
+            .card-header {
                 animation-name: traslacion_staff;
                 animation-duration: 1s;
                 animation-iteration-count: 1;
                 border-bottom: solid 3px map-get($coloresEncabezado, backgroundHeader);
-                .links{
+
+                .links {
                     text-decoration: none;
                     color: map-get($colorLinks, colorLinks);
                 }
             }
+
             .card-body {
                 animation-name: traslacion_staff;
                 animation-duration: 1.3s;
-                animation-iteration-count: 1;                
+                animation-iteration-count: 1;
                 font-style: italic;
-                color: map-get($colorTexto, colorTexto);            
+                color: map-get($colorTexto, colorTexto);
             }
         }
     }
-    .principal__contacto{
+
+    .principal__contacto {
         padding: 10px;
         display: flex;
         justify-content: center;
     }
-    
+
 }

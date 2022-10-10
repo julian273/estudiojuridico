@@ -39,6 +39,7 @@
   display: flex;
   background-color: rgb(52, 73, 94);
 }
+
 .encabezado h1 {
   margin-left: 15px;
   color: rgb(112, 123, 124);
@@ -50,9 +51,11 @@
 .navbar {
   margin: 10px;
 }
+
 .navbar .container .collapse .navbar-nav .nav-item a {
   color: rgb(255, 255, 255);
 }
+
 .navbar .container .collapse .navbar-nav .nav-item .encabezado__lista__link:hover:hover {
   color: rgb(212, 172, 13);
 }
@@ -62,10 +65,12 @@
   justify-content: center;
   align-content: center;
 }
+
 .carousel_img .carousel .carousel-inner .carousel-item {
   display: flex;
   justify-content: center;
 }
+
 .carousel_img .carousel .carousel-inner .carousel-item .d-block {
   height: 30rem;
 }
@@ -74,74 +79,86 @@
   display: flex;
   justify-content: space-between;
 }
+
 .informacion .principal__servicios {
   display: flex;
 }
+
 .informacion .principal__servicios .card {
   margin-top: 10px;
   border: none;
 }
+
 .informacion .principal__servicios .card .card-header {
   -webkit-animation-name: traslacion_staff;
-          animation-name: traslacion_staff;
+  animation-name: traslacion_staff;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   border-bottom: solid 3px rgb(52, 73, 94);
 }
+
 .informacion .principal__servicios .card .card-header .links {
   text-decoration: none;
   color: rgb(138, 138, 138);
 }
+
 .informacion .principal__servicios .card .card-body {
   -webkit-animation-name: traslacion_staff;
-          animation-name: traslacion_staff;
+  animation-name: traslacion_staff;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   font-style: italic;
   color: rgb(37, 37, 37);
 }
+
 .informacion .principal__servicios .card .card-body .card-text {
   -webkit-animation-name: traslacion_staff;
-          animation-name: traslacion_staff;
+  animation-name: traslacion_staff;
   -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
+  animation-duration: 1.3s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .informacion .principal__nosotros {
   display: flex;
 }
+
 .informacion .principal__nosotros .card {
   margin-top: 10px;
   border: none;
 }
+
 .informacion .principal__nosotros .card .card-header {
   -webkit-animation-name: traslacion_staff;
-          animation-name: traslacion_staff;
+  animation-name: traslacion_staff;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   border-bottom: solid 3px rgb(52, 73, 94);
 }
+
 .informacion .principal__nosotros .card .card-header .links {
   text-decoration: none;
   color: rgb(138, 138, 138);
 }
+
 .informacion .principal__nosotros .card .card-body {
   -webkit-animation-name: traslacion_staff;
-          animation-name: traslacion_staff;
+  animation-name: traslacion_staff;
   -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
+  animation-duration: 1.3s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   font-style: italic;
   color: rgb(37, 37, 37);
 }
+
 .informacion .principal__contacto {
   padding: 10px;
   display: flex;
@@ -151,205 +168,235 @@
 .contenido_nosotros {
   display: flex;
 }
+
 .contenido_nosotros .especialidades {
   border: none;
 }
+
 .contenido_nosotros .especialidades .especialidades_titulo {
   border-bottom: solid 3px rgb(52, 73, 94);
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   font-style: italic;
 }
+
 .contenido_nosotros .especialidades .especialidades_contenido {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
+  animation-duration: 1.3s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .contenido_nosotros .especialidades .especialidades_contenido .especialidades_contenido_parrafo {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .contenido_nosotros .especialidades .especialidades_contenido .especialidades_contenido_titulo {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
+  animation-duration: 1.3s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .contenido_nosotros .especialidades .especialidades_contenido .especialidades_contenido_resultados {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
+  animation-duration: 1.3s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .contenido_nosotros .historia_card {
   border: none;
 }
+
 .contenido_nosotros .historia_card .historia_card_titulo {
   border-bottom: solid 3px rgb(52, 73, 94);
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
+  animation-duration: 1.3s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .contenido_nosotros .historia_card .historia_card_contenido {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
+  animation-duration: 1.3s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .contenido_nosotros .historia_card .historia_card_contenido .historia_card_contenido_titulo {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .contenido_nosotros .historia_card .historia_card_contenido .historia_card_contenido_parrafo {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
+  animation-duration: 1.3s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .servicios {
   display: flex;
   justify-content: space-evenly;
 }
+
 .servicios .tres_cartas {
   display: flex;
   justify-content: space-evenly;
 }
+
 .servicios .carta__servicios {
   border: none;
   display: flex;
   margin-top: 20px;
   justify-content: center;
 }
+
 .servicios .carta__servicios .medida {
   height: 400px;
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
+  animation-duration: 1.2s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .servicios .carta__servicios .fondo {
   justify-content: center;
 }
+
 .servicios .carta__servicios .fondo h4 {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1.1s;
-          animation-duration: 1.1s;
+  animation-duration: 1.1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   border-bottom: solid 3px rgb(52, 73, 94);
   justify-content: center;
   display: flex;
 }
+
 .servicios .carta__servicios .fondo p {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation-duration: 1.5s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   font-style: italic;
 }
 
 .contenido__staff .carta__staff {
   border: none;
 }
+
 .contenido__staff .carta__staff .carta__staff__contenido {
   margin: 5px;
 }
+
 .contenido__staff .carta__staff .carta__staff__contenido .carta__staff__contenido__texto {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .contenido__staff .carta__staff .carta__staff__contenido .carta__staff__contenido__texto .carta__staff__contenido__texto__titulo {
   border-bottom: solid 3px rgb(112, 123, 124);
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .contenido__staff .carta__staff .carta__staff__contenido .carta__staff__contenido__texto ul {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
+  animation-duration: 1.3s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   font-style: italic;
 }
+
 .contenido__staff .carta__staff .carta__staff__contenido .carta__staff__contenido_imagen {
   -webkit-animation-name: traslacion_staff;
-          animation-name: traslacion_staff;
+  animation-name: traslacion_staff;
   -webkit-animation-duration: 1.6s;
-          animation-duration: 1.6s;
+  animation-duration: 1.6s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   display: flex;
   align-items: center;
 }
+
 @-webkit-keyframes traslacion_staff {
   0% {
     transform: translateX(-250px);
   }
+
   100% {
     transform: translateX(px);
   }
 }
+
 @keyframes traslacion_staff {
   0% {
     transform: translateX(-250px);
   }
+
   100% {
     transform: translateX(px);
   }
 }
+
 @-webkit-keyframes traslacion_staff_texto {
   0% {
     transform: translateX(-600px);
   }
+
   100% {
     transform: translateX(px);
   }
 }
+
 @keyframes traslacion_staff_texto {
   0% {
     transform: translateX(-600px);
   }
+
   100% {
     transform: translateX(px);
   }
@@ -360,43 +407,47 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
 .contacto .contacto__formulario {
   margin-bottom: 100px;
   border-bottom: solid 3px rgb(52, 73, 94);
   margin-top: 10px;
   font-style: italic;
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .contacto .contacto__formulario .form-label {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   display: flex;
   border-bottom: solid 3px rgb(52, 73, 94);
 }
+
 .contacto .contacto__formulario .form-control {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  animation-duration: 0.8s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
+
 .contacto .contacto__maps {
   -webkit-animation-name: traslacion_staff_texto;
-          animation-name: traslacion_staff_texto;
+  animation-name: traslacion_staff_texto;
   -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  animation-duration: 0.8s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .pie {
@@ -405,36 +456,46 @@
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
+
 .pie .pie__informacion .pie__informacion__contacto .pie__informacion__parrafo {
   font-style: italic;
 }
+
 .pie .pie__informacion .pie__informacion__contacto .pie__informacion__parrafo a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+
 .pie .pie__informacion .pie__informacion__contacto .pie__informacion__parrafo .pie__informacion__link__wsp {
   text-decoration: none;
 }
+
 .pie .pie__informacion .pie__informacion__contacto .pie__informacion__parrafo .pie_red {
   text-decoration: none;
   height: 20px;
   width: 20px;
 }
+
 .pie .pie__redes .pie__redes__sociales {
   justify-content: center;
 }
+
 .pie .pie__redes .pie__redes__sociales .pie__redes__sociales_lista {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
 }
+
 .pie .pie__redes .pie__redes__sociales .pie__redes__sociales_lista .pie__redes__sociales_lista_li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+
 .pie .pie__redes .pie__redes__sociales .pie__redes__sociales_lista .pie__redes__sociales_lista_li .redSocial {
   list-style-type: none;
   display: flex;
   margin: 10px;
   height: 40px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
